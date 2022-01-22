@@ -116,12 +116,18 @@ body.light .clock:before{
     position: absolute;
     width: 4px;
     height: 75px;
+    
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    
     background: #fff;
     z-index: 11;
     border-radius: 6px 6px 0 0;
 }
 
 body.light .mn:before{
+    transition-duration: 2s;
+    transition-timing-function: ease;
     background: #091921 ;
 }
 
